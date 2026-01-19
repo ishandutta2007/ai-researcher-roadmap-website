@@ -2,6 +2,13 @@ import React from 'react';
 import { roadmaps } from '@/data/roadmaps';
 import Link from 'next/link';
 
+export async function generateStaticParams() {
+  const slugs = Object.keys(roadmaps).map((slug) => ({
+    slug,
+  }));
+  return slugs;
+}
+
 type RoadmapPageProps = {
   params: {
     slug: string;
