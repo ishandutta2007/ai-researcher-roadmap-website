@@ -69,9 +69,54 @@ export const roadmaps: { [key: string]: Roadmap } = {
     description: 'Data Structures, Algorithms, and Programming',
     steps: [
       {
-        title: 'Coming Soon',
-        description: 'This roadmap is under construction.',
-        resources: [],
+        title: 'Programming Proficiency',
+        description: 'Master Python for AI development. Familiarity with Git/GitHub for version control and basic command-line operations are essential.',
+        resources: [
+          {
+            title: 'Python for Everybody (University of Michigan)',
+            url: 'https://www.py4e.com/',
+          },
+          {
+            title: 'Git Handbook',
+            url: 'https://guides.github.com/introduction/git-handbook/',
+          },
+          {
+            title: 'Linux Command Line Basics',
+            url: 'https://ryanstutorials.net/linuxtutorial/',
+          },
+        ],
+      },
+      {
+        title: 'Core Computer Science Concepts',
+        description: 'Understand fundamental data structures (e.g., arrays, linked lists, trees, graphs) and algorithms (e.g., sorting, searching, dynamic programming), along with Big O notation for complexity analysis.',
+        resources: [
+          {
+            title: 'GeeksforGeeks: Data Structures',
+            url: 'https://www.geeksforgeeks.org/data-structures/',
+          },
+          {
+            title: 'GeeksforGeeks: Algorithms',
+            url: 'https://www.geeksforgeeks.org/fundamentals-of-algorithms/',
+          },
+          {
+            title: 'Big O Notation Explained',
+            url: 'https://www.freecodecamp.org/news/big-o-notation-demystified-a-simple-explanation-with-examples/',
+          },
+        ],
+      },
+      {
+        title: 'Software Development Principles & System Design',
+        description: 'Grasp general software development principles and basic system design concepts, sufficient to implement and run machine learning algorithms.',
+        resources: [
+          {
+            title: 'Clean Code (Book by Robert C. Martin)',
+            url: 'https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882',
+          },
+          {
+            title: 'System Design Interview – An insider\'s guide',
+            url: 'https://www.amazon.com/System-Design-Interview-insiders-guide/dp/B08CMF2CQF',
+          },
+        ],
       },
     ],
   },
