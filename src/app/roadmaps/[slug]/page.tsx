@@ -31,7 +31,7 @@ const RoadmapPage = ({ params }: RoadmapPageProps) => {
       <div className="space-y-8">
         {roadmap.steps.map((step, index) => (
           <div key={index} className="bg-gray-800 p-6 rounded-lg">
-            <h2 className="text-3xl font-bold mb-2 text-gray-100">{step.title}</h2>
+            <h2 className="text-3xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">{step.title}</h2>
             <p className="text-gray-400 mb-4">{step.description}</p>
             <ul className="space-y-2">
               {step.resources.map((resource, rIndex) => (
