@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "copy public\\404.html out\\404.html && echo > out/.nojekyll",
     "start": "next start",
     "lint": "eslint"
   },
