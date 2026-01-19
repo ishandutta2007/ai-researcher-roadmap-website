@@ -1,3 +1,0 @@
-:HL["/ai-researcher-roadmap-website/_next/static/chunks/3c6ef9a33fc4b9a2.css","style"]
-:HL["/ai-researcher-roadmap-website/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"buildId":"rzUZ0G0XyHVi5hTQia8YQ","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"roadmaps","paramType":null,"paramKey":"roadmaps","hasRuntimePrefetch":false,"slots":{"children":{"name":"slug","paramType":"d","paramKey":"frontend","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
