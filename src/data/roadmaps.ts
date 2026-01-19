@@ -173,9 +173,46 @@ export const roadmaps: { [key: string]: Roadmap } = {
     description: 'Neural Networks, CNNs, RNNs, and Transformers',
     steps: [
       {
-        title: 'Coming Soon',
-        description: 'This roadmap is under construction.',
-        resources: [],
+        title: 'Neural Network Basics',
+        description: 'Understand the building blocks of neural networks: perceptrons, multi-layer perceptrons (MLPs), activation functions (ReLU, Sigmoid, Tanh), loss functions, backpropagation, and optimizers (SGD, Adam, RMSprop).',
+        resources: [
+          {
+            title: 'Deep Learning (Goodfellow, Bengio, Courville) - Chapter 6',
+            url: 'https://www.deeplearningbook.org/contents/mlp.html',
+          },
+          {
+            title: '3Blue1Brown: Neural Networks series',
+            url: 'https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi',
+          },
+        ],
+      },
+      {
+        title: 'Foundational Architectures',
+        description: 'Explore key deep learning architectures: Convolutional Neural Networks (CNNs) for computer vision, Recurrent Neural Networks (RNNs) including LSTMs and GRUs for sequential data, and Feedforward Deep Neural Networks (DNNs).',
+        resources: [
+          {
+            title: 'CS231n: Convolutional Neural Networks for Visual Recognition',
+            url: 'http://cs231n.stanford.edu/',
+          },
+          {
+            title: 'The Unreasonable Effectiveness of Recurrent Neural Networks',
+            url: 'http://karpathy.github.io/2015/05/21/rnn-effectiveness/',
+          },
+        ],
+      },
+      {
+        title: 'Advanced Architectures',
+        description: 'Delve into advanced architectures like Transformers and Attention Mechanisms (pivotal for NLP) and Generative Models such as Generative Adversarial Networks (GANs) and Variational Autoencoders (VAEs).',
+        resources: [
+          {
+            title: 'Attention Is All You Need (Transformer paper)',
+            url: 'https://arxiv.org/abs/1706.03762',
+          },
+          {
+            title: 'Generative Adversarial Networks (GANs) Explained',
+            url: 'https://developers.google.com/machine-learning/gan/gan_structure',
+          },
+        ],
       },
     ],
   },
