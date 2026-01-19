@@ -3,12 +3,12 @@ import Link from 'next/link';
 
 const HomePage = () => {
   const roadmaps = [
-    { title: 'Frontend Developer', slug: 'frontend', description: 'Step by step guide to becoming a modern frontend developer in 2024' },
-    { title: 'Backend Developer', slug: 'backend', description: 'Step by step guide to becoming a modern backend developer in 2024' },
-    { title: 'DevOps', slug: 'devops', description: 'Step by step guide for DevOps, SRE or any other operations role in 2024' },
-    { title: 'Full Stack Developer', slug: 'full-stack', description: 'Step by step guide to becoming a full stack developer in 2024' },
-    { title: 'Android Developer', slug: 'android', description: 'Step by step guide to becoming an Android developer in 2024' },
-    { title: 'PostgreSQL DBA', slug: 'postgresql-dba', description: 'Step by step guide to becoming a PostgreSQL DBA in 2024' },
+    { title: 'Mathematics for AI', slug: 'mathematics-for-ai', description: 'Linear Algebra, Calculus, Probability & Statistics' },
+    { title: 'Computer Science Fundamentals', slug: 'cs-fundamentals', description: 'Data Structures, Algorithms, and Programming' },
+    { title: 'Core Machine Learning', slug: 'core-ml', description: 'Supervised, Unsupervised, and Reinforcement Learning' },
+    { title: 'Deep Learning', slug: 'deep-learning', description: 'Neural Networks, CNNs, RNNs, and Transformers' },
+    { title: 'Natural Language Processing (NLP)', slug: 'nlp', description: 'From Text Preprocessing to Large Language Models' },
+    { title: 'Computer Vision', slug: 'computer-vision', description: 'Image Processing, Object Detection, and Generation' },
   ];
 
   return (
