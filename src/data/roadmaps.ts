@@ -221,9 +221,88 @@ export const roadmaps: { [key: string]: Roadmap } = {
     description: 'From Text Preprocessing to Large Language Models',
     steps: [
       {
-        title: 'Coming Soon',
-        description: 'This roadmap is under construction.',
-        resources: [],
+        title: 'Text Preprocessing',
+        description: 'Learn techniques like tokenization, lemmatization, stemming, stopword removal, and text cleaning. Utilize libraries like NLTK and SpaCy.',
+        resources: [
+          {
+            title: 'NLTK Book',
+            url: 'https://www.nltk.org/book/',
+          },
+          {
+            title: 'SpaCy 101: What\'s New',
+            url: 'https://spacy.io/usage/spacy-101',
+          },
+        ],
+      },
+      {
+        title: 'Text Representation and Feature Extraction',
+        description: 'Understand traditional methods like Bag of Words (BoW) and TF-IDF, as well as modern word embeddings (Word2Vec, GloVe, FastText) and document embeddings (Doc2Vec).',
+        resources: [
+          {
+            title: 'A Gentle Introduction to Word2Vec',
+            url: 'https://machinelearningmastery.com/gentle-introduction-word-embeddings/',
+          },
+          {
+            title: 'Understand TF-IDF',
+            url: 'https://www.datacamp.com/community/tutorials/tf-idf-tutorial',
+          },
+        ],
+      },
+      {
+        title: 'Core NLP Tasks',
+        description: 'Gain experience with tasks such as Sentiment Analysis, Named Entity Recognition (NER), Part-of-Speech (POS) Tagging, and Text Classification.',
+        resources: [
+          {
+            title: 'Text Classification with NLTK and Scikit-learn',
+            url: 'https://realpython.com/sentiment-analysis-python/',
+          },
+          {
+            title: 'Named Entity Recognition (NER) with SpaCy',
+            url: 'https://towardsdatascience.com/named-entity-recognition-ner-with-spacy-and-nltk-200a40ac2c8d',
+          },
+        ],
+      },
+      {
+        title: 'Sequence Models',
+        description: 'Study Recurrent Neural Networks (RNNs), including LSTMs and GRUs, and Sequence-to-Sequence Models with Encoder-Decoder architectures for handling sequential data.',
+        resources: [
+          {
+            title: 'Illustrated Guide to LSTMs and GRUs',
+            url: 'https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-4467c9d06b21',
+          },
+          {
+            title: 'Sequence to Sequence Learning with Neural Networks (Paper)',
+            url: 'https://arxiv.org/abs/1409.3215',
+          },
+        ],
+      },
+      {
+        title: 'Attention Mechanisms and Transformers',
+        description: 'Delve into the Transformer architecture, attention mechanisms, and work with pre-trained models like BERT and GPT.',
+        resources: [
+          {
+            title: 'The Illustrated Transformer',
+            url: 'http://jalammar.github.io/illustrated-transformer/',
+          },
+          {
+            title: 'Hugging Face Transformers Course',
+            url: 'https://huggingface.co/course/chapter1/1',
+          },
+        ],
+      },
+      {
+        title: 'Large Language Models (LLMs) and Generative AI',
+        description: 'Understand how LLMs are trained, and develop skills in Prompt Engineering and Retrieval-Augmented Generation (RAG).',
+        resources: [
+          {
+            title: 'Stanford CS324: Large Language Models',
+            url: 'https://stanford-cs324.github.io/winter2022/lectures/',
+          },
+          {
+            title: 'Prompt Engineering Guide',
+            url: 'https://www.promptingguide.ai/',
+          },
+        ],
       },
     ],
   },
