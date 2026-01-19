@@ -311,9 +311,60 @@ export const roadmaps: { [key: string]: Roadmap } = {
     description: 'Image Processing, Object Detection, and Generation',
     steps: [
       {
-        title: 'Coming Soon',
-        description: 'This roadmap is under construction.',
-        resources: [],
+        title: 'Digital Image Fundamentals',
+        description: 'Understand how images are represented (pixels, channels), image acquisition processes, and basic manipulation techniques like resizing and cropping.',
+        resources: [
+          {
+            title: 'OpenCV-Python Tutorials: Core Operations',
+            url: 'https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_core/py_basic_ops/py_basic_ops.html',
+          },
+          {
+            title: 'Digital Image Processing (Book by Gonzalez & Woods)',
+            url: 'https://www.amazon.com/Digital-Image-Processing-Rafael-Gonzalez/dp/0133356720',
+          },
+        ],
+      },
+      {
+        title: 'Image Processing & Traditional Methods',
+        description: 'Explore techniques for image enhancement (noise reduction, sharpening), filtering (convolutions), and feature extraction (edge detection like Canny, corner detection like Harris). Gain familiarity with OpenCV.',
+        resources: [
+          {
+            title: 'OpenCV-Python Tutorials: Image Processing',
+            url: 'https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_table_of_contents_imgproc/py_table_of_contents_imgproc.html',
+          },
+          {
+            title: 'Introduction to Computer Vision (Course)',
+            url: 'https://www.coursera.org/learn/introduction-to-computer-vision',
+          },
+        ],
+      },
+      {
+        title: 'Deep Learning for Computer Vision',
+        description: 'Master Convolutional Neural Networks (CNNs) and their architectures (e.g., ResNet, VGG). Learn about key tasks like Image Classification, Object Detection (YOLO, SSD, R-CNNs), Image Segmentation, and Transfer Learning.',
+        resources: [
+          {
+            title: 'CS231n: Convolutional Neural Networks for Visual Recognition',
+            url: 'http://cs231n.stanford.edu/',
+          },
+          {
+            title: 'YOLO (You Only Look Once) Explained',
+            url: 'https://towardsdatascience.com/yolo-you-only-look-once-explained-and-implemented-with-keras-and-tensorflow-d3a95d732849',
+          },
+        ],
+      },
+      {
+        title: 'Advanced Computer Vision Topics',
+        description: 'Delve into cutting-edge areas such as Transformers for Vision (ViT), Generative Adversarial Networks (GANs) for image generation, 3D Computer Vision (3D Reconstruction, NeRFs), and Video Understanding.',
+        resources: [
+          {
+            title: 'An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (ViT paper)',
+            url: 'https://arxiv.org/abs/2010.11929',
+          },
+          {
+            title: 'NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis',
+            url: 'https://www.matthewtancik.com/nerf',
+          },
+        ],
       },
     ],
   },
