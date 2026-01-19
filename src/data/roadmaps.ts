@@ -125,9 +125,46 @@ export const roadmaps: { [key: string]: Roadmap } = {
     description: 'Supervised, Unsupervised, and Reinforcement Learning',
     steps: [
       {
-        title: 'Coming Soon',
-        description: 'This roadmap is under construction.',
-        resources: [],
+        title: 'Types of Learning',
+        description: 'Understand the fundamental paradigms of machine learning: Supervised, Unsupervised, and Reinforcement Learning.',
+        resources: [
+          {
+            title: 'IBM: Supervised vs Unsupervised Learning',
+            url: 'https://www.ibm.com/cloud/blog/supervised-vs-unsupervised-learning',
+          },
+          {
+            title: 'Google AI: Reinforcement Learning',
+            url: 'https://ai.google/research/teams/brain/reinforcement-learning/',
+          },
+        ],
+      },
+      {
+        title: 'Classical Machine Learning Algorithms',
+        description: 'Familiarize yourself with widely used algorithms such as Linear/Logistic Regression, Decision Trees, Support Vector Machines (SVMs), K-Nearest Neighbors (K-NN), K-Means Clustering, and Ensemble Methods (e.g., Random Forests, Gradient Boosting).',
+        resources: [
+          {
+            title: 'Scikit-learn documentation',
+            url: 'https://scikit-learn.org/stable/documentation.html',
+          },
+          {
+            title: 'Machine Learning Crash Course (Google)',
+            url: 'https://developers.google.com/machine-learning/crash-course',
+          },
+        ],
+      },
+      {
+        title: 'Evaluation Metrics & Concepts',
+        description: 'Learn how to evaluate model performance using metrics like accuracy, precision, recall, F1-score, and AUC. Understand concepts like bias-variance trade-off, overfitting, underfitting, and regularization techniques.',
+        resources: [
+          {
+            title: 'Confusion Matrix & Evaluation Metrics',
+            url: 'https://towardsdatascience.com/confusion-matrix-and-evaluation-metrics-for-multi-class-classification-80865a363aeb',
+          },
+          {
+            title: 'Bias-Variance Trade-off',
+            url: 'https://www.ibm.com/cloud/learn/bias-variance-tradeoff',
+          },
+        ],
       },
     ],
   },
