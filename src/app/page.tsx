@@ -29,7 +29,7 @@ const HomePage = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
         {roadmaps.map((roadmap) => (
-          <Link key={roadmap.slug} href={`/roadmaps/${roadmap.slug}`}>
+          <Link key={roadmap.slug} href={`/ai-researcher-roadmap-website/roadmaps/${roadmap.slug}`}>
             <div className="bg-gray-800 p-6 rounded-lg text-center h-full hover:bg-gray-700 transition-colors">
               <h2 className="text-2xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">{roadmap.title}</h2>
               <p className="text-gray-400">{roadmap.description}</p>
