@@ -5,7 +5,7 @@ const Header = () => {
     <header className="bg-gray-800 text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-2xl font-bold">
-          <a href="/">Roadmap.sh</a>
+          <a href="/">AI Roadmaps</a>
         </div>
         <nav>
           <ul className="flex space-x-4">
