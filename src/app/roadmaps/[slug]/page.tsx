@@ -17,7 +17,9 @@ type RoadmapPageProps = {
 
 const RoadmapPage = ({ params }: RoadmapPageProps) => {
   const { slug } = params;
+  console.log('Current slug:', slug);
   const roadmap = roadmaps[slug];
+  console.log('Roadmap data for slug:', roadmap);
 
   if (!roadmap) {
     return <div className="py-16 text-center">Roadmap not found.</div>;
