@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
 2:I[97367,["/ai-researcher-roadmap-website/_next/static/chunks/ff1a16fafef87110.js","/ai-researcher-roadmap-website/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
 3:"$Sreact.suspense"
-0:{"buildId":"C2_Deui023jGG5yeuUlgp","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"py-16 text-center","children":"Roadmap not found."}],[["$","script","script-0",{"src":"/ai-researcher-roadmap-website/_next/static/chunks/7c92e96509cd355e.js","async":true}]],["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"VS6sAJhvROosc-A83gfqD","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"py-16 text-center","children":"Roadmap not found."}],[["$","script","script-0",{"src":"/ai-researcher-roadmap-website/_next/static/chunks/7c92e96509cd355e.js","async":true}]],["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
 4:null
