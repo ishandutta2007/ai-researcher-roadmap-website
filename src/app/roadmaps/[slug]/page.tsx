@@ -25,7 +25,7 @@ const RoadmapPage = ({ params }: RoadmapPageProps) => {
 
   return (
     <div className="py-16">
-      <h1 className="text-5xl font-bold mb-4">{roadmap.title}</h1>
+      <h1 className="text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">{roadmap.title}</h1>
       <p className="text-xl text-gray-400 mb-8">{roadmap.description}</p>
 
       <div className="space-y-8">

@@ -14,7 +14,7 @@ const HomePage = () => {
   return (
     <div>
       <div className="text-center py-16">
-        <h1 className="text-5xl font-bold mb-4">AI Researcher Roadmap</h1>
+        <h1 className="text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">AI Researcher Roadmap</h1>
         <p className="text-xl text-gray-400 mb-8">
           Community driven roadmaps, guides and articles for developers.
         </p>
